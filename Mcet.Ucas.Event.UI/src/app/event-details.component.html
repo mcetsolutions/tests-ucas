@@ -1,0 +1,9 @@
+<div *ngIf="event">
+    <h2>Event Details: {{event.title}}</h2>
+    <div><label>Description: </label><span>{{event.description}}</span><div>
+    <div><label>Location: </label>{{event.location}}<div>
+    <div><label>Date: </label>{{event.startDate | date:'fullDate' }}<div>  
+    <div><label>Time: </label>{{event.startDate | date:'shortTime' }}<div>
+    <div><label>Organiser: </label>{{event.organiser}}<div>
+    <button (click)="goBack()">Back</button>
+</div>
