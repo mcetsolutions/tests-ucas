@@ -29,3 +29,6 @@ Finally perform the following steps to set up the Event Viewer UI:
 npm install
 npm start
 ```
+
+## Known Issues
+1. initialize-iiswebsite.ps1 - if the final line of your hosts file is commented out the scipt adds the host file entry for 127.0.0.1 event-queryapi.ucas.local to this line and it too is commented out.  Workaround this by editing the file manually for now. 
