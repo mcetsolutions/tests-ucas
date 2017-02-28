@@ -14,7 +14,7 @@ Clone the respository and then perform the following steps to set up the Event Q
 
 1. Open the Mcet.Ucas.Event.Service Query API solution in Visual Studio and build it
 1. Run the unit / acceptance Tests - the acceptance tests will fail as the API is not running yet 
-1. Invoke the PowerShell script in the root of the repsitory 'initialize-iiswebsite.ps1' to create an IIS Web Site and host entry which can be used to access the API - http://http://event-queryapi.ucas.local/
+1. Invoke the PowerShell script in the root of the repsitory 'initialize-iiswebsite.ps1' to create an IIS Web Site and host entry which can be used to access the API - http://event-queryapi.ucas.local/
 1. Navigate to the following URLs to confirm the API is running:
    - http://event-queryapi.ucas.local/events?pagenumber=1&pageSize=10
    - http://event-queryapi.ucas.local/events/a682adc7-1163-4a32-a867-3362756499f7/
