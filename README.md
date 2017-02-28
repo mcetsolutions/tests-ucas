@@ -2,6 +2,7 @@
 
 ## Requirements
 Create a web application with following features:
+
 1. List page to show list of events (title, location and date) with most recent event at the top
 1. On clicking the event title, user should be navigated to event details e.g. description, location and time
 For UI, you can use either MVC or any SPA framework - Angular preferred. You can use server side in memory data store to keep the application simple.
